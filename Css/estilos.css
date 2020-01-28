@@ -1,34 +1,36 @@
 /*
-#  ·················
-#  ··_______________
-#  ·/·___/·___/·___/
-#  /·/__(__··|__··)·
-#  \___/____/____/··
-#  ·················
+#  Â·Â·Â·Â·Â·Â·Â·Â·Â·Â·Â·Â·Â·Â·Â·Â·Â·
+#  Â·Â·_______________
+#  Â·/Â·___/Â·___/Â·___/
+#  /Â·/__(__Â·Â·|__Â·Â·)Â·
+#  \___/____/____/Â·Â·
+#  Â·Â·Â·Â·Â·Â·Â·Â·Â·Â·Â·Â·Â·Â·Â·Â·Â·
 */
-
-body {
-    padding: 0px;
-    margin: 0px;
-    font-size: 12px;
-    font-family: Helvetica;
+html,body{
+  padding:0px;
+  margin:0px;
+  font-size: 12px;
+  font-family: Helvetica;
 }
 
-nav {
-    display: flex;
-    background-color: #7ACC2D;
-    padding: 10px;
-    color: white;
-    justify-content: space-between;
-    align-items: center;
+
+nav{
+  display: flex;
+  background-color: #7ACC2D;
+  padding: 10px;
+  color: white;
+  justify-content: space-between;
+  align-items: center;
 }
 
 nav ul{
   display: flex;
 }
+
 nav li{
-  padding-left: : 20px;
+  padding-left: 20px;
   list-style: none;
+
 }
 
 nav li a{
@@ -38,26 +40,27 @@ nav li a{
 
 nav li a:hover{
   color: white;
-
 }
 
-/*----------------------- main section */
+/* ------------------------ Main section */
 
 .main_section{
   padding: 15%;
   text-align: center;
 }
+
 .products{
   background-image: url("../images/curve.png");
   max-height: 50px;
   background-size: cover;
   background-position: center top;
-  padding: 20%;
+  padding:20%;
   display: flex;
 }
+
 .product{
   padding: 10px;
-  margin-top: -400px;
+  margin-top: -240px;
 }
 .product .content{
   background-color: white;
@@ -67,12 +70,18 @@ nav li a:hover{
 .img_content{
   text-align: center;
 }
+
 .main_button{
   background-color: #7ACC2D;
   width: 100%;
   padding: 10px;
-  font-size: 17px;
+  font-size: 12px;
   color: white;
-  border: 0;
+  border:0;
+  cursor: pointer;
+  border-radius: 2px;
+}
 
+.main_button:hover{
+  background-color: #5e9e22;
 }
