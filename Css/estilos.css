@@ -110,11 +110,20 @@ hr{
   cursor: pointer;
   color: var(--white-color);
 }
+.button_mas a{
+
+  background-color: green;
+  color: black;
+}
 .main_btn:hover{
   background-color: #63a426;
 }
 
 /* Beneficios */
+h1.beneficios_title{
+  text-align: center;
+  padding: 1%;
+}
 .beneficios{
   padding: 10%;
   display: flex;
@@ -126,7 +135,7 @@ hr{
 }
 
 .beneficio img{
-  max-height: 100px
+  max-height: 100px;
 }
 
 .text_beneficio{
@@ -516,3 +525,11 @@ template {
 [hidden] {
   display: none;
 }
+/*Inicia el footer*/
+.option{
+  text-align: center;
+  display: flex;
+  font-size: 15px;
+  background-color: var(--black-color);
+  color: var(--white-color);
+/*Termina el footer*/
