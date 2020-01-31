@@ -110,6 +110,7 @@ hr{
   background-color: #63a426;
 }
 
+
 /* Beneficios */
 .beneficios{
   padding: 10%;
@@ -123,6 +124,9 @@ hr{
 
 .beneficio img{
   max-height: 100px
+}
+.beneficios_title{
+  text-align: center;
 }
 
 .text_beneficio{
@@ -176,6 +180,19 @@ padding:var(--space-2);
 .modulo_pago .main_btn{
       margin-top: 10px;
 }
+.term_cond p{
+  font-size: 20px;
+
+}
+.term_cond h1{
+  text-align: center;
+  font-style:italic;
+  font-weight: bold;
+}
+.term_cond h4{
+  font-weight: bold;
+  color: grey;
+}
 
 
 /* ------------------------------------------- Footer */
@@ -189,4 +206,11 @@ footer{
 }
 .option_contact a{
   color: var(--green-color);
+}
+.option_tel{
+  font-size: 25px;
+}
+.optionduda{
+  font-size: 15px;
+  text-align: center;
 }
